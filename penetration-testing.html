@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Penetration Testing | David Atobatele</title>
+    <!-- Same assets as index.html -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Reused Header -->
+    <header class="header">
+        <a href="index.html" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="index.html#home">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#services" class="active">Services</a>
+            <a href="index.html#portfolio">Projects</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Service Section (Same structure as about.html) -->
+    <section class="about" id="services-detail"> <!-- Reusing 'about' class -->
+        <div class="about-img">
+            <img src="images/pentest.avif" alt="Penetration Testing" style="width: 40vw;">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading" style="text-align: center;">Penetration <span>Testing</span></h2>
+            
+            <h3 class="heading">Overview</h3>
+            <p>
+                Penetration Testing Services simulate real-world cyberattacks to identify 
+                vulnerabilities in your systems, applications, or networks. Conducted in 
+                a controlled environment, my goal is to uncover weaknesses before malicious 
+                actors exploit them, providing actionable solutions to strengthen your defenses.
+            </p>
+
+            <h3 class="heading">What I Offer</h3>
+            <p>
+                <strong>Network Testing:</strong> External/Internal assessments of firewalls, routers, and servers.<br>
+                <strong>Web App Testing:</strong> API security, SQLi, XSS, and logic flaws.<br>
+                <strong>Social Engineering:</strong> Phishing/pretexting simulations.<br>
+                <strong>Wireless Testing:</strong> Wi-Fi and IoT device security.<br>
+                <strong>Reporting:</strong> Proof-of-concept exploits + prioritized remediation steps.
+            </p>
+
+            <h3 class="heading">Methodologies</h3>
+            <p>
+                I follow <strong>OWASP Top 10</strong>, <strong>PTES</strong>, and <strong>NIST SP 800-115</strong> standards, 
+                using tools like Metasploit, Burp Suite, and custom Python/Bash scripts.
+            </p>
+
+            <a href="index.html#contact" class="btn">Request a Test</a>
+        </div>
+    </section>
+
+    <!-- Reused Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Dev_x | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#services-detail"><ion-icon name="arrow-up-outline"></ion-icon></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
