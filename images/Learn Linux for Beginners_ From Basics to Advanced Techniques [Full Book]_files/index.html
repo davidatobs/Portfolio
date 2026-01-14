@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!-- saved from url=(0189)https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/7585719363744680196/index.html#t=9936857700006250905&p=https%3A%2F%2Fce3bad883b7c95a017d2b822a305c3d9.safeframe.googlesyndication.com -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" src="./f(5).txt"></script><script type="text/javascript" src="./f(6).txt"></script>
+  
+  <meta name="ad.size" content="width=300,height=250">
+  <meta name="viewport" content="width=300, initial-scale=1.0">
+  <title>Job Opportunity</title>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        margin: 0;
+        background: linear-gradient(to bottom right, #f0f0f0, #ffffff);
+    }
+    .container {
+        width: 300px;
+        height: 250px;
+        position: relative;
+        text-align: center;
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        overflow: hidden;
+        padding: 10px;
+    }
+    .title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+    .loader {
+        border: 6px solid #f3f3f3;
+        border-top: 6px solid #27ae60;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        animation: spin 1s linear infinite;
+        margin: 30px auto;
+    }
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+    .final-title {
+        font-size: 20px;
+        font-weight: bold;
+        color: #2c3e50;
+        margin-top: 15px;
+    }
+    .final-subtitle {
+        font-size: 16px;
+        margin-top: 8px;
+        color: #34495e;
+    }
+    .countdown {
+        font-size: 14px;
+        font-weight: bold;
+        color: red;
+        margin: 12px 0;
+    }
+    .start-button {
+        margin-top: 10px;
+        padding: 10px 20px;
+        font-size: 15px;
+        background-color: #27ae60;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    .start-button:hover {
+        background-color: #1e874c;
+    }
+    .hidden {
+        display: none;
+    }
+  </style>
+<script type="text/javascript" src="./5bPDSTdhBjBEznn-wz4Z9DIE88SFbrtf4CMpOCj5AFw.js.download"></script></head>
+<body onclick="window.open(&#39;https://fetchpixi.com/quiz/ftp-jobs-us-es/1&#39;, &#39;_blank&#39;); ExitApi.exit();" style="cursor:pointer;; cursor:pointer">
+  <div class="container">
+    <div id="loading-section" class="hidden">
+      <div class="title">Looking for a job for you...</div>
+      <div class="loader"></div>
+    </div>
+    <div class="" id="final-section">
+      <div class="final-title">Congratulations!</div>
+      <div class="final-subtitle">We found a job for you!</div>
+      <div class="countdown">Offer expires in <span id="countdown">0</span> seconds</div>
+      <button class="start-button" onclick="event.stopPropagation(); window.open(&#39;https://fetchpixi.com/quiz/ftp-jobs-us-es/1&#39;, &#39;_blank&#39;);">Apply now</button>
+    </div>
+  </div>
+
+  <script>
+    setTimeout(function() {
+        document.getElementById('loading-section').classList.add('hidden');
+        document.getElementById('final-section').classList.remove('hidden');
+
+        var timeLeft = 20;
+        var countdownElement = document.getElementById('countdown');
+        var countdownTimer = setInterval(function() {
+            timeLeft--;
+            countdownElement.textContent = timeLeft;
+            if (timeLeft <= 0) {
+                clearInterval(countdownTimer);
+            }
+        }, 1000);
+    }, 1500);
+  </script>
+
+
+</body></html>
